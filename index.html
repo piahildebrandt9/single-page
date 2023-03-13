@@ -11,119 +11,126 @@
 </head>
 
 <body>
+
     <!-- topbar -->
-    <div>
+    <header id = 'top'>
         <!-- heading -->
-        <p>&pi; Ski</p>
+        <h1>&pi; Ski</h1>
         <!-- navigation -->
             <!-- 4 nav items -->
-            <ul>
-                <li>Location</li>
-                <li>Gallery</li>
-                <li>Classes</li>
-                <li>Team</li>
-            </ul>
+            <nav>
+                <ul>
+                    <li> <a href='#location'>Location</a> </li>
+                    <li> <a href='#gallery'> Gallery</a></li>
+                    <li> <a href='#classes'> Classes</a></li>
+                    <li> <a href='#team'>Team</a> </li>
+                </ul>
+            </nav>
             
         <!-- end navigation -->
     <!-- end topbar -->
-    </div>
+    </header>
+
     <!--splash screen  -->
-    <div>
+    <section>
         <!-- heading -->
         <h1>&pi;Ski taking your Ski experience on another level</h1>
         <!-- subheading -->
         <h2>Improve your powder skills!</h2>
         <!-- button -->
-        <p > <a href="">Discover our Classes </a></p>
+        <button> <a href="#classes">Discover our Classes </a></button>
     <!-- end splash screen -->
-    </div>
+    </section>
     
     <!--location screen -->
-    <div>
+    <section id = 'location'>
         <!-- heading -->
-        <h2>Location</h2>
+        <h1>Location</h1>
         <!-- link -->
-        <p> <a href="">Top</a> </p>
+        <p> <a href='#top'>Top</a> </p>
         <!-- map -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d354822.78753584524!2d7.461659883788169!3d45.99017048876296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478f3368cbb9ecd9%3A0x9826458cace55849!2sMatterhorn!5e0!3m2!1sde!2ses!4v1678705830547!5m2!1sde!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <!-- text -->
         <p>Why Zermatt? Zermatt is at its height of 3920m perfect for getting as much powder as possible and a long way downhill.</p>
     <!-- end location screen -->
-    </div>
+    </section>
 
     <!-- gallery screen -->
-    <div>
+    <section id = 'gallery'>
         <!-- heading -->
-        <h2>Gallery</h2>
+        <h1>Gallery</h1>
         <!-- link -->
-        <p> <a href="">Top</a> </p>
+        <p> <a href = '#top'>Top</a> </p> 
         <!-- picture table -->
-        <img src="./images/gallery1.avif" alt="skiing picture">
-        <img src="./images/gallery2.avif" alt="skiing picture">
-        <img src="./images/gallery3.avif" alt="skiing picture">
-        <img src="./images/gallery4.avif" alt="skiing picture">
+        <img src="./images/gallery1.avif" alt="7 people walking through fresh snow on skis">
+        <img src="./images/gallery2.avif" alt="A ski instructor doing a perfectly carved turn on the well prepped slope with blue sky in the background">
+        <img src="./images/gallery3.avif" alt="Three skiers on the slope taking their turns looking downhill">
+        <img src="./images/gallery4.avif" alt="Two girls on skis are standing and smiling and taking the outer foot and their arms up. In the background you can see the sun shining and the white landscape.">
     <!--end gallery screen -->
-    </div>
-    <div>
+    </section>
+
+
+    
     <!-- information boxes -->
+    <section id='classes'>
         <!-- heading -->
-        <h2>Classes</h2>
+        <h1>Classes</h1>
         <!-- link -->
-        <p> <a href="">Top</a> </p>
+        <p> <a href = '#top'>Top</a> </p>
         <!-- 6 boxes  -->
-        <div>
-            <h3>Ski technique</h3>
-            <img src="./images/ski-technique.avif" alt="ski technique">
+        <article>
+            <h2>Ski technique</h2>
+            <img src="./images/ski-technique.avif" alt="A skiier performing a carved turn. Leaning into the curve with all white background.">
             <p>Take your skiing technique on a higher level. Improve your posture. Improve your ski control in all radiant sizes.</p>
-        </div>
-        <div>
-            <h3>Snowboard techniquw</h3>
-            <img src="./images/board-techniquw.avif" alt="board technique">
+        </article>
+        <article>
+            <h2>Snowboard technique</h2>
+            <img src="./images/board-techniquw.avif" alt="Three snowboarders in one turn from right to left in fresh snow">
             <p>Feel the edges of your board. Perfect all sizes of turns. </p>
-        </div>
-        <div>
-            <h3>Ski Free Ride</h3>
-            <img src="./images/ski-freeride.avif" alt="ski freeride">
+        </article>
+        <article>
+            <h2>Ski Free Ride</h2>
+            <img src="./images/ski-freeride.avif" alt="ski freerider in deep powder with snow floating around him">
             <p>Get all the powder. Secure skiing of the slopes and on tour.</p>
-        </div>
-        <div>
-            <h3>Snowboard Free Ride</h3>
-            <img src="./images/board-freeride.avif" alt="board freestyle">
+        </article>
+        <article>
+            <h2>Snowboard Free Ride</h2>
+            <img src="./images/board-freeride.avif" alt="board freerider in the forest covered in powdered snow">
             <p>Get the powder.Safe Boarding off and on the slopes.
             </p>
-        </div>
+        </article>
 
-        <div>
-            <h3>Ski Free Style</h3>
-            <img src="./images/ski-freestyle.avif" alt="ski freestyle">
+        <article>
+            <h2>Ski Free Style</h2>
+            <img src="./images/ski-freestyle.avif" alt="ski freestyler sliding on to a rail">
             <p>Getting your tricks in the park in. Starting with some basic tecnic for jumps boxes and more.</p>
-        </div>
+        </article>
 
-        <div>
-            <h3>Board Free Style</h3>
-            <img src="./images/board-freestyle.avif" alt="board freestyle">
+        <article>
+            <h2>Board Free Style</h2>
+            <img src="./images/board-freestyle.avif" alt="methodic order of a grab jump from a snowboarder">
             <p>From 180 to everything you ever wanted.</p>
-        </div>
+        </article>
         
     <!-- end information boxes -->
-    </div>
+    </section>
 
     <!-- information pictures -->
-    <div>
+    <section id='team'>
         <!-- heading -->
         <h2>Team</h2>
         <!-- link -->
-        <p> <a href="">Top</a> </p>
+        <p> <a href='#top'>Top</a> </p>
         <!-- picture table -->
-        <img src="./images/team1.jpg" alt="team1">
-        <img src="./images/team2.jpg" alt="team2">
-        <img src="./images/team3.jpg" alt="team3">
-        <img src="./images/team4.jpg" alt="team4">
-        <img src="./images/team5.jpg" alt="team5">
-        <img src="./images/team6.jpg" alt="team6">
+        <img src="./images/team1.jpg" alt="Our ski instructor Tim in his ski clothes looking straight in the camera and holding his skis in the left arm.">
+        <img src="./images/team2.jpg" alt="Our freeride instructor Marie in the forest smiling in the camera">
+        <img src="./images/team3.jpg" alt="Our ski and snowboard instructor Lila smiling at the camera holding her skis in the right hand turning left, ready to go downhill">
+        <img src="./images/team4.jpg" alt="Our snowboard instructor pete checking the last information abour his course on his phone">
+        <img src="./images/team5.jpg" alt="Our ski instructor Emma making you feel welcome by putting her arms out">
+        <img src="./images/team6.jpg" alt="Our BOard instructor Lina smiling and getting some snow in.">
 
     <!-- end information pictures -->
-    </div>
+    </section>
 
     <!-- footer -->
     <footer>
@@ -132,10 +139,10 @@
         <!-- heading -->
         <h3>Copyright 2019 &pi;Ski </h3>
         <!-- text -->
-        <p>Zermatt</p>
-        <p>call: </p>
-        <p>email:</p>
-        <p>message us for any quastions</p>
+        <p><a href="https://www.google.com/maps?ll=45.976573,7.658452&z=9&t=m&hl=de&gl=ES&mapclient=embed&q=Matterhorn">Find us</a></p>
+        <p> <a href='tel:+492214305262'>cCall us </a> </p>
+        <p> <a href='email: something@gmx.com'>Email us</a> </p>
+        <p>Message us for any questions</p>
     <!-- end footer -->
     </footer>
 
