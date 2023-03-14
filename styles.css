@@ -1,9 +1,15 @@
-img {
+/* img {
     width: 100%;
-}
+} */
 @font-face {
     font-family:Roboto-condensed;
     src: url(./images/RobotoCondensed-Light.ttf);
+}
+body{
+    text-align:center;
+    margin:0px;
+    vertical-align:center;
+    justify-content:center;
 }
 
 header {
@@ -57,7 +63,7 @@ nav ul {
     color:rgb(223, 98, 25);
     font-family:Roboto-condensed;
     font-style:normal;
-    margin-bottom:1px;
+    
     margin-top:0px;
 }
 
@@ -68,18 +74,21 @@ header a{
     /* text-align:right; */
 }
 
-#titleimage {
-    background-image: url("./images/title.jpg");
+#titleimage div {
+    background-image: url("./images/title1.jpg");
     background-size:cover;
-    height:50vh;
-    /* background-repeat:no-repeat; */
+    height:90vh;
+    background-position:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    
 
 }
 #titleimage h1 {
     font-family: Verdana;
     font-size:40px;
-    margin-left:10%;
-    text-align:center;
+   
     font-style:italic;
     margin-top:5px;
     
@@ -87,13 +96,16 @@ header a{
 #titleimage h2 {
     font-family: Verdana;
     font-weight: normal;
-    margin-left: 42%;
+    
 }
 #titleimage button {
-    margin-left: 49%;
+    
     background-color:transparent;
     border-radius: 10px;
     font-size:18px;
+    width: 10em;
+
+    
 
     
 }
@@ -111,12 +123,8 @@ header a{
     font-family:Verdana;
 }
 
-#location h1 {
-    margin-left:50%;
-    
-}
 #location a {
-    margin-left:53%;
+   
     text-decoration:none;
     color:black;
 }
@@ -124,5 +132,47 @@ header a{
     display:flex;
 }
 #location iframe {
-    width:50%;
+    width:72em;
+    height:90vh;
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /* object-fit:cover; */
+    width:100vw;
+    height:fit-content;
+    justify-content:center;
+    
+}
+
+#picone {
+    grid-row-start:1;
+    grid-row-end:3;
+    width:100%;
+    
+}
+#pictwo {
+    
+    width:100%;
+    height:100%;
+    
+}
+#picthree {
+    
+    width:100%;
+    height:100%;
+    
+}
+
+
+
+.classboxes{
+    display:grid;
+
+    grid-template-columns: 50% 50%;
+
+}
+.classboxes article {
+    
 }
